@@ -10,7 +10,7 @@ System requirments
 2. Maven (If complied using cli) else you can use any IDE to run and compile
 
 How to run:
-This project can be run as maven project or as a stand alone jar or on Jenkins
+This project can be run as maven project or as a stand alone jar or on Jenkins.
 For demo sticking to run via IDE
 1. Sync the git repo or download on your local directory
 3. Import the project in IntelliJ
