@@ -11,11 +11,11 @@ How to run:
 This project can be run as maven project or as a stand alone jar or Jenlkins
 For demo sticking to run via IDE
 1. Sync the git repo or download on your local directory
-2. Import the project in IntelliJ
-3. Under, Src>main>test>Java> find the file DemoRun
-4. Run the file as java program
-5. Check the results in html format under targets folder
-6. Under NuixDemo/resources folder extract the appropriate chrome driver
+3. Import the project in IntelliJ
+4. Under NuixDemo/resources folder extract the appropriate chrome driver
+5. Under, Src>main>test>Java> find the file DemoRun.java
+6. Run the file as java program
+7. Check the results in html format under project root Directory
 
 Core files/package location and definitions:
  package com.nuix.selinium contains three classes for creating new webdriver session and managing them.
@@ -26,7 +26,8 @@ Core files/package location and definitions:
 
 Flow:
 Call to driver factory to open browser will create a new session.
-Both pages and steps extends Driver helper class so that they can have access to driver.
+Both pages and steps extends DriverHelper class so that they can have access to driver.
 The base page class is NuixBasePage, which is extended by BookingsBase page and in turn will be extended by all other pages
-In the same way all steps files extends Bookings base steps which in turn extends NuixBaseSteps 
+In the same way all steps files extends Bookings base steps which in turn extends NuixBaseSteps
+Extent reports is used for html reporting the final results
  
