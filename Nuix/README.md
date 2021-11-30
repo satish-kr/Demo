@@ -20,10 +20,10 @@ For demo sticking to run via IDE
 7. Check the results in html format under project root Directory
 
 Core files/package location and definitions:
- package com.nuix.selinium contains three classes for creating new webdriver session and managing them.
- package cucumber.steps contains the steps file
- package pages contains the pages
- test/resources contains the feature files
+1. package com.nuix.selinium contains three classes for creating new webdriver session and managing them.
+2. package cucumber.steps contains the steps file
+3. package pages contains the pages
+4. test/resources contains the feature files
 
 
 Flow:
