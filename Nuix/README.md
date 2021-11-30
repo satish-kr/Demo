@@ -1,6 +1,6 @@
 Demo Project for Nuix 
 This is demo for booking.com but can have mutliple projects under it.
-For demo only chorme 
+For demo only chorme driver related has been implemented
 Compiled, build and tested on Java version 17/Mac m1/Chrome version 95.0.4638.69
 
 System requirments
